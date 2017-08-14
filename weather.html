@@ -1,0 +1,55 @@
+<div ng-controller="WeatherController">
+      <div id="wrapper" style="overflow: hidden;">
+        <div id="header">
+          <div id="desylogo"></div>
+          <div id="title">WEATHER</div>
+        </div>
+        <div id="content">
+          <div id="left-column">
+            <div class="weather-headerbox">Current</div>
+
+            <div style="display:inline-block; margin-left:20px; margin-bottom:8px;">
+              <img ng-src="{{singleValues[0]}}" width="141px" height="auto"/>
+            </div>
+            <div style="display:inline-block; margin-left:10px; margin-top:0px;">
+              <img ng-src="{{singleValues[1]}}" width="141px" height="auto"/>
+            </div>
+            <div style="display:inline-block; margin-left:10px; margin-top:0px;">
+              <img ng-src="{{singleValues[2]}}" width="141px" height="auto"/>
+            </div>
+            <div style="display:inline-block; margin-left:10px; margin-top:0px;">
+              <img ng-src="{{singleValues[3]}}" width="141px" height="auto"/>
+            </div>
+            <div style="display:inline-block; margin-left:10px; margin-top:0px;">
+              <img ng-src="{{singleValues[4]}}" width="141px" height="auto"/>
+            </div>
+            <div style="display:inline-block; margin-left:10px; margin-top:0px;">
+              <img ng-src="{{singleValues[5]}}" width="141px" height="auto"/>
+            </div>
+
+            <div class="weather-headerbox">Time Series</div>
+
+            <div style="padding-bottom:30px; padding-left:60px;"><img ng-src="{{timeSeries[0]}}" width="93%" height="auto"/></div>
+            <div style="padding-bottom:30px; padding-left:60px;"><img ng-src="{{timeSeries[1]}}" width="93%" height="auto"/></div>
+            <div style="padding-bottom:30px; padding-left:60px;"><img ng-src="{{timeSeries[2]}}" width="93%" height="auto"/></div>
+          </div>
+          <div id="right-column">
+            <div class="weather-headerbox">Rain Radar</div>
+
+            <div style="display:table-cell; vertical-align:middle; text-align:center;">
+              <img ng-src="{{rainRadar[1]}}" width="94%" height="auto"/>
+            </div>
+
+            <div style="display:inline-block; margin-left:10px; margin-top:30px;">
+              <img ng-src="{{rainRadar[0]}}" width="310px" height="auto"/>
+            </div>
+            <div style="display:inline-block;">
+              <img ng-src="{{rainRadar[2]}}" width="310px" height="auto"/>
+            </div>
+            <div style="display:inline-block;">
+              <img ng-src="{{rainRadar[3]}}" width="310px" height="218px"/>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>

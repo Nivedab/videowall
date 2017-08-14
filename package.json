@@ -1,0 +1,9 @@
+{
+	"name": "Sinbad Video wall",
+	"description": "Central ARD Display node.js socket.io server",
+	"author": "Niveda Bangalore Sridhar - DESY/ARD/MPY",
+	"dependencies" : {
+		"socket.io": "*",
+		"express": "*"
+	}
+}
